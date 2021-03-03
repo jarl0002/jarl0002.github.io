@@ -36,10 +36,70 @@
 						<option value="other">Other</option>
 					</select>
 				</div>
-				<div>
+				<div id="st-container" class="form-elm">
 					<label for="dte">Your Date of Birth</label>
 					<input type="date" name="dte" id="dte"><br>
 				</div>
+				<div id="email-container" class="form-elm">
+					<label for="email">Your Email</label>
+					<input type="email" name="email" id="email" placeholder="abcd@gmail.com">
+				</div>
+				<div id="sum-container" class="form-elm">
+					<label for="summary">Anything Else We Should Know?</label>
+					<textarea name="summary" id="summary" placeholder="Enter Info Here"></textarea>
+				</div>
+
+				<div id="hobbies-container" class="form-elm">
+					<h3>Your Hobbies and Interests</h3>
+					<label for="reading">Reading</label>
+					<input type="checkbox" name="hobbies" id="reading" value="reading"> <br>
+
+					<label for="videogames">Video Games</label>
+					<input type="checkbox" name="hobbies" id="videogames" value="videogames"> <br>
+
+					<label for="sports">Sports</label>
+					<input type="checkbox" name="hobbies" id="sports" value="sports"> <br>
+
+					<label for="cooking">Cooking</label>
+					<input type="checkbox" name="hobbies" id="cooking" value="cooking"> <br>
+
+					<label for="music">Music</label>
+					<input type="checkbox" name="hobbies" id="music" value="music"> <br>
+
+					<label for="makeup">Makeup</label>
+					<input type="checkbox" name="hobbies" id="makeup" value="makeup"> <br>
+
+ 					<label for="hiking">Hiking</label>
+ 					<input type="checkbox" name="hobbies" id="hiking" value="hiking"> <br>
+
+					<label for="swimming">Swimming</label>
+					<input type="checkbox" name="hobbies" id="swimming" value="swimming"> <br>
+				</div>
+
+				<div id="radio-container" class="form-elm">
+					<h4>Signing Up</h4>
+					<p>Would You Like to Receive Updates from Us?</p>
+					<label for="yes">
+						<input type="radio" name="like-form" id="yes" value="yes" checked>
+						Yes
+					</label>
+					<label>
+						<input type="radio" name="like-form" id="no" value="no">
+						No
+					</label>
+				</div>
+
+				<div id="ur-container" class="form-elm">
+					<label for="ur">Insert Your Webpage URL Here (Optional)</label>
+					<input type="url" name="ur" id="ur"><br>
+				</div>
+
+				<div id="pass-container" class="form-elm">
+					<label for="pass">Create Password</label>
+					<input type="password" name="pass" id="pass" required>
+				</div>
+				<button type="submit">Submit</button>
+				<button type="reset">Reset</button>
 			</form>
 		</section>
 	</div>
