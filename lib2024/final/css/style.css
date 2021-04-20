@@ -1,0 +1,144 @@
+/* For mobile phones: */
+[class*="col-"]{
+	width: 100%;
+}
+
+@font-face {
+    font-family: 'abhaya_libremedium';
+    src: url('../fonts/AbhayaLibre-Medium-webfont.eot');
+    src: url('../fonts/AbhayaLibre-Medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/AbhayaLibre-Medium-webfont.woff2') format('woff2'),
+         url('../fonts/AbhayaLibre-Medium-webfont.woff') format('woff'),
+         url('../fonts/AbhayaLibre-Medium-webfont.ttf') format('truetype'),
+         url('../fonts/AbhayaLibre-Medium-webfont.svg#abhaya_libremedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#heading1{
+	font-family: 'Dela Gothic One', cursive;
+	color: #008B8B;
+	font-size: 40px;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.body{
+	max-width: 1300px;
+	font-family: 'abhaya_libremedium';
+	background-image: url(../img/geometric-leaves.png);
+}
+
+
+ul.nav{
+	background-color: #008B8B;
+	height: 30px;
+	text-align: center;
+}
+
+#nav li{
+	list-style: none;
+	float: left;
+	margin-left: 20px;
+	font-size: 15px;
+}
+
+.nav a{
+	text-decoration: none;
+	color: black;
+}
+
+.nav a:hover{
+	color: #ffffff;
+	transition: 0.3s;
+}
+
+.main-section{
+	width: 85%
+}
+
+img{
+	float: right;
+}
+
+#heading2{
+	color: #5F9EA0;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+#about-section{
+	width: 85%;
+}
+
+#heading3{
+	color: #5F9EA0;
+	font-size: 25px;
+}
+
+.table{
+	width: 100%;
+	height: 400px;
+}
+
+.table-head{
+	color: #5F9EA0;
+}
+
+.table-body{
+	text-align: center;
+}
+
+table , th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.heading4{
+	color: #5F9EA0;
+	font-size: 25px;
+}
+
+.aside{
+	float: right;
+}
+
+.footer{
+	background-color: #4d4d4d;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.ft-title{
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.footer-heading1{
+	display: flex;
+	flex-direction: column;
+	margin-right: 10%;
+}
+
+.footer-heading2{
+	display: flex;
+	margin-bottom: 10%;
+}
+
+.footer-heading3{
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+}
+
+.footer-heading1 a{
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#pthree{
+	color: #ffffff;
+}
